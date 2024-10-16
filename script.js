@@ -17,8 +17,5 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setInterval(createSparkle, 50);
 
-    const ctaButton = document.querySelector('.cta');
-    ctaButton.addEventListener('click', () => {
-        document.querySelector('#contact').scrollIntoView({ behavior: 'smooth' });
-    });
+    // Remove the click event listener for the CTA button
 });
