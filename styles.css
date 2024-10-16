@@ -8,12 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #f4f4f4;
-    background-color: #0f1c4d;
+    background-color: #0f1424;
 }
 
 header {
-    background-color: rgba(15, 28, 77, 0.9);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(9, 14, 34, 0.9);
+    box-shadow: 0 2px 5px rgba(8, 8, 8, 0.5);
     position: fixed;
     width: 100%;
     top: 0;
@@ -41,7 +41,7 @@ nav {
 }
 
 .slogan {
-    font-size: 0.9rem;
+    font-size: 1rem;
     font-style: italic;
     color: #ffffff;
     margin-top: 0.2rem;
@@ -225,4 +225,9 @@ body::before {
     height: 100%;
     background: linear-gradient(135deg, #0f1c4d, #1a2a6c);
     z-index: -1;
+}
+
+.tagline {
+    font-size: 1.2em; /* Adjust this value as needed */
+    font-weight: 600; /* Optional: makes the text slightly bolder */
 }
