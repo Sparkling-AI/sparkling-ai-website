@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="SparklingAI">
+  <rect x="4" y="4" width="56" height="56" rx="18" fill="#111827"/>
+  <rect x="4.5" y="4.5" width="55" height="55" rx="17.5" fill="none" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="25" cy="39" r="7" fill="#f2efe8"/>
+  <path d="M40.5 14l2.8 7.7L51 24.5l-7.7 2.8L40.5 35l-2.8-7.7L30 24.5l7.7-2.8L40.5 14z" fill="#14b8a6"/>
+  <path d="M47.5 34.5l1.4 3.8 3.8 1.4-3.8 1.4-1.4 3.8-1.4-3.8-3.8-1.4 3.8-1.4 1.4-3.8z" fill="#f59e0b"/>
+</svg>
