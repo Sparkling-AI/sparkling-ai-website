@@ -3,110 +3,149 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SeeTheTime - Visual Timer for Parents | Montessori-Inspired Time Management</title>
+    <title>SeeTheTime | Visual Timer for Parents and Educators</title>
+    <meta name="description" content="SeeTheTime is a visual timer for parents, caregivers, and educators who want calmer routines and a clearer sense of time.">
+    <meta name="theme-color" content="#f7f2e8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="seethetime-styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@700&family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
-    <!-- Favicon options -->
     <link rel="icon" href="icon/web/favicon.ico" sizes="any">
-    <link rel="icon" type="image/png" sizes="192x192" href="icon/web/icon-192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icon/web/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icon/web/favicon-16x16.png">
     <link rel="apple-touch-icon" sizes="180x180" href="icon/web/apple-touch-icon.png">
     <link rel="manifest" href="icon/web/site.webmanifest">
     <link rel="shortcut icon" href="icon/web/favicon.ico">
     <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "6ccd15efb7184ebca85f0539f5239361"}'></script><!-- End Cloudflare Web Analytics -->
 </head>
-<body>
-    <header>
-        <nav>
-            <div class="logo-container">
-                <div class="logo">SparklingAI</div>
-                <div class="slogan">Founder-led AI product studio</div>
-            </div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html#about">About Us</a></li>
+<body class="seethetime-page">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+
+    <header class="site-header">
+        <nav class="site-nav" aria-label="Primary">
+            <a href="index.html" class="brand">
+                <img src="assets/brand/sparkling-ai-mark.svg" alt="SparklingAI" class="brand-mark" width="44" height="44">
+                <span class="brand-copy">
+                    <span class="brand-name">SparklingAI</span>
+                    <span class="brand-tagline">Founder-led AI product studio</span>
+                </span>
+            </a>
+
+            <button class="mobile-menu-btn" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <ul class="nav-links" id="site-menu">
+                <li><a href="index.html#work">Work</a></li>
+                <li><a href="index.html#collaborations">Collaborations</a></li>
                 <li><a href="index.html#services">Services</a></li>
-                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact" class="nav-cta">Get in Touch</a></li>
             </ul>
         </nav>
     </header>
 
-    <main>
-        <!-- Hero Section -->
+    <main id="main-content">
         <section class="seethetime-hero">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <h1>Make Time Visible and Manageable</h1>
-                    <p class="hero-subtitle">A Montessori-inspired visual timer that helps parents, caregivers, and educators support calm routines and time awareness through simple swipe-to-set design.</p>
-                    <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" class="app-store-btn">Download on the App Store</a>
+            <div class="seethetime-hero-shell">
+                <div class="seethetime-hero-copy">
+                    <p class="eyebrow">Mobile App</p>
+                    <div class="seethetime-app-title">
+                        <img src="assets/external/SeeTheTime-icon.png" alt="SeeTheTime app icon" width="192" height="192" class="seethetime-app-icon">
+                        <div>
+                            <p class="seethetime-kicker">SeeTheTime</p>
+                            <h1>Make time visible and manageable.</h1>
+                        </div>
+                    </div>
+                    <p class="seethetime-lead">A visual timer for parents, caregivers, and educators who want calmer routines, clearer transitions, and a simple way to help children understand time.</p>
+
+                    <div class="hero-actions">
+                        <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" class="button button-primary" target="_blank" rel="noopener noreferrer">Download on the App Store</a>
+                        <a href="SeeTheTime-privacy-policy.html" class="button button-secondary">Read Privacy Policy</a>
+                    </div>
+
+                    <ul class="seethetime-highlights">
+                        <li>No account required</li>
+                        <li>Designed for iPhone and iPad</li>
+                        <li>Built for calm, low-friction routines</li>
+                    </ul>
                 </div>
-                <div class="hero-image">
-                    <img src="assets/visual_timer_preview_1.png" alt="SeeTheTime visual timer app showing finger swiping the ring" />
+
+                <div class="seethetime-hero-media reveal">
+                    <figure class="seethetime-device seethetime-device-main">
+                        <img src="assets/visual_timer_preview_1.png" alt="SeeTheTime visual timer app showing the timer ring interface" width="1242" height="2688">
+                    </figure>
+                    <div class="seethetime-device-stack">
+                        <figure class="seethetime-device">
+                            <img src="assets/visual_timer_preview_2.png" alt="SeeTheTime timer ring preview" width="1242" height="2688">
+                        </figure>
+                        <figure class="seethetime-device">
+                            <img src="assets/visual_timer_preview_3.png" alt="SeeTheTime timer interface preview" width="1242" height="2688">
+                        </figure>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Feature Grid -->
-        <section class="features-section">
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-image">
-                        <img src="assets/visual_timer_preview_1.png" alt="Visualize Every Minute" />
-                    </div>
-                    <h3>Visualize Every Minute</h3>
-                    <p>Each minute lights up in a bold orange ring—making time concrete and understandable.</p>
-                </div>
+        <section class="section seethetime-details">
+            <div class="section-intro reveal">
+                <p class="eyebrow">Why It Works</p>
+                <h2>Simple enough for routines. Clear enough for shared use.</h2>
+                <p>SeeTheTime keeps the interface focused so adults can set a timer quickly and children can understand it at a glance.</p>
+            </div>
 
-                <div class="feature-card">
-                    <div class="feature-image">
-                        <img src="assets/visual_timer_preview_2.png" alt="Design for Focus" />
-                    </div>
-                    <h3>Design for Focus</h3>
-                    <p>Clean and distraction-free design for routines, transitions, and focused activities.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-image">
-                        <img src="assets/visual_timer_preview_3.png" alt="Montessori-Inspired Simplicity" />
-                    </div>
-                    <h3>Montessori-Inspired Simplicity</h3>
-                    <p>Intuitive swipe-to-set interface that anyone can use—perfect for home or classroom.</p>
-                </div>
-
-                <div class="feature-card">
-                    <div class="feature-image">
-                        <img src="assets/visual_timer_preview_4.png" alt="Works on iPhone & iPad" />
-                    </div>
-                    <h3>Works on iPhone & iPad</h3>
-                    <p>Fully responsive in portrait and landscape—ideal for shared use at home or in educational settings.</p>
-                </div>
+            <div class="seethetime-detail-grid">
+                <article class="seethetime-detail reveal">
+                    <h3>Time made visible</h3>
+                    <p>The circular timer gives a concrete sense of how much time is left, which helps make waiting and transitions easier to follow.</p>
+                </article>
+                <article class="seethetime-detail reveal">
+                    <h3>Fast to set</h3>
+                    <p>The swipe-based interaction is intentionally direct, so the app can support routines without turning into another thing to manage.</p>
+                </article>
+                <article class="seethetime-detail reveal">
+                    <h3>Low distraction</h3>
+                    <p>The interface stays quiet and focused, making it suitable for home routines, classroom transitions, and one-on-one support.</p>
+                </article>
+                <article class="seethetime-detail reveal">
+                    <h3>Built for real use</h3>
+                    <p>Responsive layouts support both iPhone and iPad, including portrait and landscape use when the timer is shared in a room.</p>
+                </article>
             </div>
         </section>
 
-        <!-- Download Call-to-Action -->
-        <section class="download-cta">
-            <div class="cta-content">
-                <h2>Ready to support calm routines and time awareness?</h2>
-                <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" class="app-store-btn">Download on the App Store</a>
+        <section class="section seethetime-cta">
+            <div class="seethetime-cta-panel reveal">
+                <p class="eyebrow">Get The App</p>
+                <h2>Ready to support calmer routines and clearer transitions?</h2>
+                <p>Download SeeTheTime on the App Store, or review the privacy policy first if you need the details.</p>
+                <div class="hero-actions">
+                    <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" class="button button-primary" target="_blank" rel="noopener noreferrer">Open App Store</a>
+                    <a href="SeeTheTime-privacy-policy.html" class="button button-secondary">Privacy Policy</a>
+                </div>
             </div>
         </section>
     </main>
 
-    <footer class="seethetime-footer">
-        <div class="footer-content">
-            <div class="footer-left">
-                <div class="footer-logo">SeeTheTime</div>
-                <p>&copy; 2025 Sparkling AI AB</p>
+    <footer class="site-footer">
+        <div class="footer-inner footer-inner-links">
+            <div class="footer-brand">
+                <img src="assets/brand/sparkling-ai-mark.svg" alt="SparklingAI" width="40" height="40">
+                <div>
+                    <p class="footer-name">SparklingAI</p>
+                    <p class="footer-note">AI products, automation & selected consulting</p>
+                </div>
             </div>
-            <div class="footer-right">
+            <div class="footer-links">
                 <a href="SeeTheTime-privacy-policy.html">Privacy Policy</a>
-                <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" class="app-store-badge">
-                    <i class="fab fa-app-store"></i>
-                </a>
+                <a href="https://apps.apple.com/il/app/seethetime-visual-timer/id6745572118" target="_blank" rel="noopener noreferrer">App Store</a>
             </div>
         </div>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
