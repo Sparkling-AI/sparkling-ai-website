@@ -810,6 +810,16 @@ p {
     text-align: center;
 }
 
+.contact-panel h2 {
+    max-width: 56rem;
+    margin: 0 auto;
+    font-family: "Manrope", sans-serif;
+    font-size: clamp(2.15rem, 4.2vw, 3.65rem);
+    font-weight: 800;
+    line-height: 1.12;
+    letter-spacing: -0.035em;
+}
+
 .contact-panel > p:not(.eyebrow) {
     max-width: 44rem;
     margin: 1rem auto 0;
@@ -975,6 +985,11 @@ p {
     .about-panel,
     .contact-panel {
         padding: 1.2rem;
+    }
+
+    .contact-panel h2 {
+        font-size: clamp(2rem, 10vw, 2.8rem);
+        line-height: 1.08;
     }
 
     .hero-shell {
